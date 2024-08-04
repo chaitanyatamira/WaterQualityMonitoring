@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  background-color: #1c5b85;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .brand {
+  display: flex;
+  align-items: center;
+}
+
+nav .brand img.logo {
+  height: 50px; /* Set logo size */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+nav h1 {
+  font-size: 35px;
+  color: chocolate;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul a {
+  color: rgb(205, 207, 239);
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: background-color 0.5s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgb(243, 184, 65);
+}
+.hero {
+  min-height: 100vh;
+  background-image: url("/static/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column; /* Stacks child elements vertically */
+  align-items: center; /* Centers elements horizontally */
+}
+
+.hero-content h1 {
+  display: inline-block;
+  font-size: 48px;
+  margin-bottom: 20px;
+  background-color: #3498db;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+.hero-content p {
+  display: inline-block;
+  font-size: 20px;
+  background-color: #feffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: rgb(86, 145, 239);
+  margin-bottom: 20px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #f5ab2c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Adds spacing between paragraph and button */
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+}
+.form-section {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form label {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  text-align: left;
+}
+
+.auth-form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #2980b9;
+}
+
+.map-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.map-container {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.reports-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.reports-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.reports-table th,
+.reports-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+ 
